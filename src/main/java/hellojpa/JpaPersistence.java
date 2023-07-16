@@ -31,11 +31,11 @@ public class JpaPersistence {
             em.close(); // 영속성 컨텍스트를 종료
              */
 
-            Member member1 = new Member(200L, "member200");
-            Member member2 = new Member(300L, "member300");
+//            Member member1 = new Member(200L, "member200");
+//            Member member2 = new Member(300L, "member300");
 
-            em.persist(member1);
-            em.persist(member2);
+//            em.persist(member1);
+//            em.persist(member2);
 
             System.out.println("==============================");
 

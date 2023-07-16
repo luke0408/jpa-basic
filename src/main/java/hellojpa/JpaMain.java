@@ -32,9 +32,9 @@ public class JpaMain {
                     .setMaxResults(10) // 페이징 (10개까지)
                     .getResultList();
 
-            for (Member member : result) {
-                System.out.println("member.name = " + member.getName());
-            }
+//            for (Member member : result) {
+//                System.out.println("member.name = " + member.getName());
+//            }
 
             tx.commit();
         } catch (Exception e) {

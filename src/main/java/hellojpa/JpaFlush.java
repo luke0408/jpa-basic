@@ -22,8 +22,8 @@ public class JpaFlush {
             - 트랜잭션이라는 작업 단위가 중요 -> 커밋 직전에만 동기화하면 됨
             * */
 
-            Member member1 = new Member(200L, "member200");
-            em.persist(member1);
+//            Member member1 = new Member(200L, "member200");
+//            em.persist(member1);
 
             // 영속성 컨텍스트의 변경 내용을 DB에 반영, commit 시점이 아닌 flush를 호출하는 시점에 DB에 Query가 날라감
             em.flush(); // 이때 1차 캐시가 비워지지 않음

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fb1a9c9d-e8ac-46d8-9526-b1d2a1d4e014" name="Changes" comment=":sparkles: [Feat]: Persistence Context (#3)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaFlush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaFlush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaPersistence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -52,13 +55,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="jpaBook.jpaShop.domain" />
       <recent name="hellojpa" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jpaBook.jpaShop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hellojpa" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.jpaBook.jpaShop.JpaMain">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain" />
       <module name="jpa-basic" />
@@ -72,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jpaBook.jpaShop.JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jpaBook.jpaShop.JpaMain" />
+      <module name="jpa-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpaBook.jpaShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.jpaBook.jpaShop.JpaMain" />
         <item itemvalue="Application.JpaMain" />
       </list>
     </recent_temporary>
@@ -91,6 +112,7 @@
       <workItem from="1688913859081" duration="642000" />
       <workItem from="1689092688325" duration="46000" />
       <workItem from="1689433980273" duration="3875000" />
+      <workItem from="1689507816305" duration="2850000" />
     </task>
     <servers />
   </component>
