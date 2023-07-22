@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fb1a9c9d-e8ac-46d8-9526-b1d2a1d4e014" name="Changes" comment=":sparkles: [Feat]: Persistence Context (#3)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpaBook/jpaShop/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpaBook/jpaShop/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpaBook/jpaShop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpaBook/jpaShop/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpaBook/jpaShop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpaBook/jpaShop/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpaBook/jpaShop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpaBook/jpaShop/domain/OrderItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +124,7 @@
       <workItem from="1689507816305" duration="3721000" />
       <workItem from="1689743810649" duration="1008000" />
       <workItem from="1689745112647" duration="351000" />
-      <workItem from="1690039625209" duration="751000" />
+      <workItem from="1690039625209" duration="3029000" />
     </task>
     <servers />
   </component>
